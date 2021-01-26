@@ -1,0 +1,10 @@
+{% set data = { 
+    "link": "https://github.com/mrdrbob/bobdavidson.dev",
+    "type": "github",
+    "title": "This Site (BobDavidson.dev)",
+    "series": "Github"
+} %}
+{% set description %}
+    <p>If you're wondering how this site is built and deployed, wonder no more. I've published the source code on Github. There's not actually much interesting here (except <em>maybe</em> the <a href="https://github.com/mrdrbob/bobdavidson.dev/blob/main/gulpfile.js">Gulp file that builds everything</a>), but perhaps someone will find something useful here.</p>
+{% endset %}
+{% include '../templates/_link.twig' with data %}
