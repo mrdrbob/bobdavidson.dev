@@ -1,0 +1,21 @@
+{% extends 'comp/_surround.twig' %}
+
+{% set title = 'Homepage' %}
+
+{% block body %}
+    <h2>Welcome</h2>
+    <p>I'm Bob Davidson. I make stuff on the web. I also make stuff in real life, but that's not what this website is about. Below, you'll find links to some of the stuff I've put on the web, such as my YouTube videos, Github repositories, blog posts, and more.</p>
+
+    <hr />
+    
+    {% include 'comp/github/_02-aoc-2020.twig' %}
+    {% include 'comp/github/_01-godot.twig' %}
+    {% include 'comp/epi/_ep01.twig' %}
+    {% include 'comp/refactoring/_ep06.twig' %}
+    {% include 'comp/refactoring/_ep05.twig' %}
+    {% include 'comp/refactoring/_ep04.twig' %}
+    {% include 'comp/refactoring/_ep03.twig' %}
+    {% include 'comp/refactoring/_ep02.twig' %}
+    {% include 'comp/refactoring/_ep01.twig' %}
+    
+{% endblock %}

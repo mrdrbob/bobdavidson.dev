@@ -1,0 +1,49 @@
+
+.link {
+    position: relative;
+
+    h3 {
+        margin-top: 0.2em;
+    }
+
+    .series {
+        color: rgb(114, 114, 114);
+    }
+    
+    border-bottom: 1px solid #CCC;
+    margin-bottom: 2em;
+}
+
+.icon {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    opacity: 0.1;
+
+    width: 6em;
+    height: 6em;
+    margin: -3em 0 0 -3em;
+}
+
+.icon.icon-youtube {
+    background: url('yt_icon_mono_light.png') top left no-repeat;
+    background-size: contain;
+}
+
+.icon.icon-github {
+    background: url('GitHub-Mark-64px.png') top left no-repeat;
+    background-size: contain;
+}
+
+@media screen and (min-width: 35.5em) {
+    .icon {
+        top: 3em;
+        left: 2em;
+        opacity: 0.5;
+    }
+
+    .description {
+        margin-left: 6em;
+    }
+}

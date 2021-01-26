@@ -1,0 +1,23 @@
+{
+  "name": "bobdavidson.dev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "aws-sdk": "^2.831.0",
+    "gulp": "^4.0.2",
+    "gulp-connect": "^5.7.0",
+    "gulp-css-base64": "^2.0.0",
+    "gulp-hash-src": "^0.1.6",
+    "gulp-sass": "^4.1.0",
+    "gulp-twig": "^1.2.0",
+    "mime": "^2.5.0",
+    "purecss": "^2.0.5",
+    "rimraf": "^3.0.2"
+  }
+}
