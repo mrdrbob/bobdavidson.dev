@@ -4,6 +4,8 @@ const { src, dest, series, parallel, watch } = require('gulp');
 // For processing markup
 const twig = require('gulp-twig');
 const hashSrc = require('gulp-hash-src');
+const { readFileSync } = require('fs');
+const yaml = require('js-yaml');
 
 // Styles. PureCSS is a framework and I'm just including it via NPM.
 // PureCSS has utilities to get the paths to the files I need to include in my build.
@@ -11,6 +13,9 @@ const hashSrc = require('gulp-hash-src');
 const sass = require('gulp-sass');
 const purecss = require('purecss');
 const cssBase64 = require('gulp-css-base64');
+
+// For generating the RSS feed
+const { generateRss } = require('./gulp-rss');
 
 // For cleaning, provides a quick way to recursively delete folders
 const rimraf = require("rimraf");
@@ -28,6 +33,12 @@ const { getType } = require('mime');
 // Creates the AWS/S3 client, allowing the library to grab credentials from
 // the AWS profile or environment variables, or whatever.
 const client = new S3();
+
+// Some pages might rely on information in the data.yml file.
+// So load that up now. Using the sync method is very un-node, 
+// but for this use case, is acceptable, because I said so.
+const data = yaml.load(readFileSync('src/data.yml'));
+
 
 // All the individual tasks
 
@@ -48,7 +59,7 @@ function clean(cb) {
 // See the `deploy` task.
 function markup() {
     return src(['src/**/*.twig', '!src/**/_*']) 
-        .pipe(twig())
+        .pipe(twig({ data }))
         .pipe(hashSrc({ src_path: 'src/', build_dir: 'dist/' }))
         .pipe(dest('dist'))
         .pipe(connect.reload());
@@ -87,6 +98,12 @@ function images() {
         .pipe(connect.reload());
 }
 
+// Generates the RSS feed. See `gulp-rss.js` for how this is done.
+function rss() {
+    return generateRss(data)
+        .pipe(dest('dist'));
+}
+
 // Sets up all the watches. Notice in a couple places the source is different
 // here than in the build step. For Twig files, I want to rebuild on any change.
 // For the SCSS, I don't think the PureCSS files are going to change while I'm 
@@ -96,10 +113,12 @@ function images() {
 // because in this case, I'm not returning a promise and everything in this method 
 // is synchronous. So I need to make this function look async to keep gulp happy.
 function server(cb) {
-    watch('src/**/*.twig', markup);
+    watch(['src/**/*.twig', 'src/data.yml'], markup);
+    watch('src/data.yml', markup);
     watch('src/js/*.js', javascript);
     watch('src/scss/**/*.scss', styles);
     watch('src/img/**/*', styles);
+    watch('src/data.yml', rss);
 
     connect.server({
         root: 'dist/',
@@ -177,12 +196,12 @@ function uploadToS3(bucket, cacheControl) {
 // Deploying files is a 2 step process. Non-HTML files get deployed with immutable
 // caching, and HTML is deployed with no caching.
 function deployNonHtmlFiles() {
-    return src(['dist/**/*', '!dist/**/*.html'])
+    return src(['dist/**/*', '!dist/**/*.html', '!dist/rss.xml'])
         .pipe(uploadToS3('bobdavidson.dev', 'public, max-age=31536000, immutable'));
 }
 
 function deployHtmlFiles() {
-    return src('dist/**/*.html')
+    return src(['dist/**/*.html', 'dist/rss.xml'])
         .pipe(uploadToS3('bobdavidson.dev', 'public, max-age=0, must-revalidate'));
 }
 
@@ -196,11 +215,10 @@ const deployHtml = parallel(deployNonHtmlFiles, deployHtmlFiles);
 // place in the destination.
 // In theory `parallel` saves time. In reality this project is too small to 
 // really benefit from it.
-const build = series(parallel(images, javascript, styles), markup);
+const build = series(parallel(images, javascript, styles, rss), markup);
 
 // Exporting all the public tasks
 exports.build  = build;
 exports.clean = clean;
 exports.server = series(build, server);
 exports.deploy = series(clean, build, deployHtml);
-

@@ -1,0 +1,75 @@
+---
+title: Bob Davidson.dev
+link: https://bobdavidson.dev/
+description: Homepage of Bob Davidson, Director of Development at Blend Interactive, Web Developer, Tinkerer
+updates:
+  - id: github/03-this-site
+    title: This Site (BobDavidson.dev)
+    type: github
+    series: Github
+    link: https://github.com/mrdrbob/bobdavidson.dev
+    description: >
+      <p>If you're wondering how this site is built and deployed, wonder no more. I've published the source code on Github. There's not actually much interesting here (except <em>maybe</em> the <a href="https://github.com/mrdrbob/bobdavidson.dev/blob/main/gulpfile.js">Gulp file that builds everything</a>), but perhaps someone will find something useful here.</p>
+  - id: github/02-aoc-2020
+    title: Advent of Code 2020
+    type: github
+    series: Github
+    link: https://github.com/mrdrbob/aoc-2020
+    description: >
+      <p>Another year and another attempt at <a href="https://adventofcode.com/2020" target="_blank" rel="noopener">Advent of Code</a>. Once again, I did not finish, though I made it slightly farther than before (day 15). And once again I tried it in <a href="https://www.rust-lang.org/" target="_blank" rel="noopener">Rust</a>. You can read my development diary as I worked through the syntax and logic. I've not used systems languages much, but I've had much greater success with Rust than I have any other systems language. It's not quite ready to be a part of my day job, but I see why it has such buzz.</p>
+  - id: github/01-godot
+    title: Playing with Godot Game Engine
+    type: github
+    series: Github
+    link: https://github.com/mrdrbob/godot-test
+    description: >
+      <p>I started playing around a bit with <a href="https://godotengine.org/" target="_blank" rel="noopener">Godot</a>, following some tutorials and building a very rough, proof-of-concept side-scrolling platformer. In the <a href="https://github.com/mrdrbob/godot-test">Github repo</a>, you can find all my files and read through my development diary as I tried to figure out just what the heck I was doing. Overall, though, I'm extremely impressed with how polished Godot is, and how quickly a person can get up and running.</p>
+  - id: epi/01
+    title: Episode 1 | On Page Editing Meta Properties
+    type: youtube
+    series: Episerver with Bob
+    link: https://youtu.be/pgslebVq7v8
+    description: >
+      <p>I show one technique to make metadata and otherwise non-visible page properties more user-friendly for on-page editing in Episerver.</p>
+  - id: refactoring/06
+    title: Episode 6 | Encoding
+    type: youtube
+    series: Refactoring with Bob
+    link: https://youtu.be/05HWg5R_zsE
+    description: >
+      <p>I show one technique to make metadata and otherwise non-visible page properties more user-friendly for on-page editing in Episerver.</p>
+  - id: refactoring/05
+    title: Episode 5 | Deconstructing Enumerators
+    type: youtube
+    series: Refactoring with Bob
+    link: https://youtu.be/05HWg5R_zsE
+    description: >
+      <p>In which we answer the questions: how do `foreach` loops work? How do `yield return` statements work? We look at the C# compiler actually generates (more or less) in these cases.</p>
+  - id: refactoring/04
+    title: Episode 4 | Homebuilt CMS Deep Dive
+    type: youtube
+    series: Refactoring with Bob
+    link: https://youtu.be/6gawVMHtfdA
+    description: >
+      <p>In which we explore a home-built, makeshift content management system. Thanks to John for letting us examine and critique his code!</p>
+  - id: refactoring/03
+    title: Episode 3 | Broken Keyboard Code Challenge
+    type: youtube
+    series: Refactoring with Bob
+    link: https://youtu.be/lRA53HiXIxw
+    description: >
+      <p>In which we solve a code challenge (being intentionally naive), and then refactor the solve.</p>
+  - id: refactoring/02
+    title: Episode 2 | Gated Content Form
+    type: youtube
+    series: Refactoring with Bob
+    link: https://youtu.be/5Vlx2q7fQp0
+    description: >
+      <p>In which we look at a made-up gated content form controller in MVC.</p>
+  - id: refactoring/01
+    title: Episode 1 | Comment Approval
+    type: youtube
+    series: Refactoring with Bob
+    link: https://youtu.be/pgslebVq7v8
+    description: >
+      <p>In which we look at a made-up function that adds/publishes comments to a page in a Content Management System.</p>

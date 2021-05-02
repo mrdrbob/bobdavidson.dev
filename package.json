@@ -16,8 +16,10 @@
     "gulp-hash-src": "^0.1.6",
     "gulp-sass": "^4.1.0",
     "gulp-twig": "^1.2.0",
+    "js-yaml": "^4.1.0",
     "mime": "^2.5.0",
     "purecss": "^2.0.5",
-    "rimraf": "^3.0.2"
+    "rimraf": "^3.0.2",
+    "xmlbuilder2": "^2.4.1"
   }
 }

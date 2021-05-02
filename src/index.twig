@@ -8,15 +8,15 @@
 
     <hr />
     
-    {% include 'comp/github/_03-this-site.twig' %}
-    {% include 'comp/github/_02-aoc-2020.twig' %}
-    {% include 'comp/github/_01-godot.twig' %}
-    {% include 'comp/epi/_ep01.twig' %}
-    {% include 'comp/refactoring/_ep06.twig' %}
-    {% include 'comp/refactoring/_ep05.twig' %}
-    {% include 'comp/refactoring/_ep04.twig' %}
-    {% include 'comp/refactoring/_ep03.twig' %}
-    {% include 'comp/refactoring/_ep02.twig' %}
-    {% include 'comp/refactoring/_ep01.twig' %}
+    {% for update in updates %}
+        <div class="link {{ update.type }}-link">
+            <i class="icon icon-{{ update.type }}"></i>
+            <div class="description">
+                <div class="series">{{ update.series }}</div>
+                <h3><a href="{{ update.link }}">{{ update.title }}</a></h3>
+                {{ update.description }}
+            </div>
+        </div>
+    {% endfor %}
     
 {% endblock %}
