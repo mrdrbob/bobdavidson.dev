@@ -10,7 +10,7 @@ const yaml = require('js-yaml');
 // Styles. PureCSS is a framework and I'm just including it via NPM.
 // PureCSS has utilities to get the paths to the files I need to include in my build.
 // Using cssBase64 to include small images directly in the CSS
-const sass = require('gulp-sass');
+const sass = require('gulp-dart-sass');
 const purecss = require('purecss');
 const cssBase64 = require('gulp-css-base64');
 

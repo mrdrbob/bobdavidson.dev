@@ -3,6 +3,20 @@ title: Bob Davidson.dev
 link: https://bobdavidson.dev/
 description: Homepage of Bob Davidson, Director of Development at Blend Interactive, Web Developer, Tinkerer
 updates:
+  - id: link/05-xhtml-strings
+    title: Content References in XhtmlString Properties
+    type: link
+    series: Blog Post
+    link: https://www.blendinteractive.com/thoughts/content-references-in-xhtmlstrings/
+    description: >
+      <p>XHtmlString properties are more than just HTML, they include HTML, internal links to content, embedded blocks, personalization, and more. Here I take a brief look at the internals of XhtmlString properties and the fragments that make them.</p>
+  - id: github/04-aoc-2021
+    title: Advent of Code 
+    type: github
+    series: Github
+    link: https://github.com/mrdrbob/aoc-2021
+    description: >
+      <p>Another year, another failed attempt. Actually, I completed all of the puzzles this year, just a month and a half late. Like last year, I kept a dev diary of sorts. Unlike last year, I did all the puzzles in C#.</p>
   - id: github/03-this-site
     title: This Site (BobDavidson.dev)
     type: github
