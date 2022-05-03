@@ -3,6 +3,13 @@ title: Bob Davidson.dev
 link: https://bobdavidson.dev/
 description: Homepage of Bob Davidson, Director of Development at Blend Interactive, Web Developer, Tinkerer
 updates:
+  - id: link/06-opti-from-scratch
+    title: Optimizely CMS Site Project Setup
+    type: youtube
+    series: Optimizely CMS with Bob
+    link: https://youtu.be/mdQYec2JhQA
+    description: >
+      <p>I revamp my old series on building Episerver (now Optimizely CMS) sites from the ground up.</p>
   - id: link/05-xhtml-strings
     title: Content References in XhtmlString Properties
     type: link
