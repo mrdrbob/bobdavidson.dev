@@ -15,7 +15,6 @@
     "gulp-css-base64": "^2.0.0",
     "gulp-dart-sass": "^1.0.2",
     "gulp-hash-src": "^0.1.6",
-    "gulp-sass": "^4.1.0",
     "gulp-twig": "^1.2.0",
     "js-yaml": "^4.1.0",
     "mime": "^2.5.0",

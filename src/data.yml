@@ -3,6 +3,48 @@ title: Bob Davidson.dev
 link: https://bobdavidson.dev/
 description: Homepage of Bob Davidson, Director of Development at Blend Interactive, Web Developer, Tinkerer
 updates:
+  - id: github/12-2b2d
+    title: 2B2D - My homegrown 2D game engine
+    type: github
+    series: Github
+    link: https://github.com/mrdrbob/2b2d
+    description: >
+      <p>2B2D is a very simple 2D-only game engine heavily inspired by <a href="https://bevyengine.org/"  target="_blank" rel="noopener">Bevy</a>, written in Typescript, rendered in WebGPU, with no dependencies.</p>
+  - id: link/11-log-seq-blog-post
+    title: Journaling as a Management Tool
+    type: link
+    series: Blog Post
+    link: https://www.blendinteractive.com/thoughts/journaling-as-a-management-tool/
+    description: >
+      <p>How I supplement my workflow with a mix of technology, process, and habit through daily journaling.</p>
+  - id: link/10-rendering-content
+    title: Events and Scheduled Jobs in Optimizely CMS 12
+    type: youtube
+    series: Optimizely CMS with Bob
+    link: https://youtu.be/aPx2klRTnvs
+    description: >
+      <p>A lengthy introduction to content events and building scheduled jobs in Optimizely CMS 12.</p>
+  - id: link/09-rendering-content
+    title: Working with Content in Optimizely CMS
+    type: youtube
+    series: Optimizely CMS with Bob
+    link: https://youtu.be/2IfrEB9IbBA
+    description: >
+      <p>An introduction to working with content objects, content APIs, and avoiding some common stumbling blocks for people who are new to the CMS platform.</p>
+  - id: link/08-rendering-content
+    title: Rendering Content in Optimizely CMS
+    type: youtube
+    series: Optimizely CMS with Bob
+    link: https://youtu.be/DTvoE4xCVSA
+    description: >
+      <p>A brief (hour long) introduction to several basic ways to render content in Optimizely CMS 12, including rendering pages via a controller, blocks via a controller, blocks via the template coordinator, and page partials via the template coordinator.</p>
+  - id: link/07-content-modeling
+    title: Content Modeling in Optimizely CMS
+    type: youtube
+    series: Optimizely CMS with Bob
+    link: https://youtu.be/XxHBlCZrvEE
+    description: >
+      <p>A discussion about what content and content modeling actually are from a conceptual point of view, followed by a brief introduction into making content types for the CMS.</p>
   - id: link/06-opti-from-scratch
     title: Optimizely CMS Site Project Setup
     type: youtube

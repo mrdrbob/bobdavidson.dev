@@ -90,11 +90,18 @@ function styles() {
 //        .pipe(dest(destination))
 //        .pipe(connect.reload()); 
 //    }
-// But this pattern only happens twice here and I'm not sure it's worth the 
+// But this pattern only happens a few times here and I'm not sure it's worth the 
 // abstraction.
 function images() {
     return src('src/img/**/*')
         .pipe(dest('dist/img'))
+        .pipe(connect.reload());
+}
+
+// Copy some random txt files
+function txt() {
+    return src('src/**/*.txt')
+        .pipe(dest('dist'))
         .pipe(connect.reload());
 }
 
@@ -201,7 +208,7 @@ function deployNonHtmlFiles() {
 }
 
 function deployHtmlFiles() {
-    return src(['dist/**/*.html', 'dist/rss.xml'])
+    return src(['dist/**/*.html', 'dist/rss.xml', 'dist/**/*.txt'])
         .pipe(uploadToS3('bobdavidson.dev', 'public, max-age=0, must-revalidate'));
 }
 
@@ -215,7 +222,7 @@ const deployHtml = parallel(deployNonHtmlFiles, deployHtmlFiles);
 // place in the destination.
 // In theory `parallel` saves time. In reality this project is too small to 
 // really benefit from it.
-const build = series(parallel(images, javascript, styles, rss), markup);
+const build = series(parallel(images, javascript, styles, rss, txt), markup);
 
 // Exporting all the public tasks
 exports.build  = build;
