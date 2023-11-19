@@ -3,6 +3,13 @@ title: Bob Davidson.dev
 link: https://bobdavidson.dev/
 description: Homepage of Bob Davidson, Director of Development at Blend Interactive, Web Developer, Tinkerer
 updates:
+  - id: link/13-say-hello-2b2d
+    title: Say hello to 2B2D
+    type: link
+    series: Blog Post
+    link: https://mrdrbob.itch.io/2b2d-example-game/devlog/637606/say-hello-to-2b2d
+    description: >
+      <p>A quick introduction to 2B2D, my home-grown game engine, and the concepts contained there-in.</p>
   - id: github/12-2b2d
     title: 2B2D - My homegrown 2D game engine
     type: github
