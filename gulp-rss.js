@@ -8,14 +8,15 @@ exports.generateRss = function (data) {
     const channel = create({ version: '1.0' })
         .ele('rss', { 'version': '2.0' })
             .ele('channel');
-    
-    channel.ele('title').txt(data.title).up();
+        channel.ele('title').txt(data.title).up();
     channel.ele('link').txt(data.link).up();
     channel.ele('description').txt(data.description).up();
 
     for (const update of data.updates) {
         channel.ele('item')
             .ele('title').txt(update.title).up()
+            .ele('pubDate').txt(update.pubDate).up()
+            .ele('guid', { isPermaLink: 'false' }).txt(update.guid).up()
             .ele('link').txt(update.link).up()
             .ele('description').txt(update.description).up()
         .up();
