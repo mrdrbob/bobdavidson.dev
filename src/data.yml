@@ -8,7 +8,7 @@ updates:
     type: link
     series: Blog Post
     link: https://mrdrbob.itch.io/2b2d-example-game/devlog/637606/say-hello-to-2b2d
-    pubDate: Sun, 19 Nov 2023 17:00:00 CST
+    pubDate: Sun, 19 Nov 2023 22:00:00 GMT
     guid: 507f8281-4590-4311-9f70-79d52c79d5bb
     description: >
       <p>A quick introduction to 2B2D, my home-grown game engine, and the concepts contained there-in.</p>
@@ -17,7 +17,7 @@ updates:
     type: github
     series: Github
     link: https://github.com/mrdrbob/2b2d
-    pubDate: Sat, 30 Sep 2023 17:00:00 CST
+    pubDate: Sat, 30 Sep 2023 22:00:00 GMT
     guid: d115b4a1-fb6a-4cf9-85c0-ca5b4909e47e
     description: >
       <p>2B2D is a very simple 2D-only game engine heavily inspired by <a href="https://bevyengine.org/"  target="_blank" rel="noopener">Bevy</a>, written in Typescript, rendered in WebGPU, with no dependencies.</p>
@@ -25,7 +25,7 @@ updates:
     title: Journaling as a Management Tool
     type: link
     series: Blog Post
-    pubDate: Wed, 09 Aug 2023 17:00:00 CST
+    pubDate: Wed, 09 Aug 2023 22:00:00 GMT
     link: https://www.blendinteractive.com/thoughts/journaling-as-a-management-tool/
     guid: 346595da-1e1e-45a2-ab33-00c22f5a12fc
     description: >
@@ -35,7 +35,7 @@ updates:
     type: youtube
     series: Optimizely CMS with Bob
     link: https://youtu.be/aPx2klRTnvs
-    pubDate: Sat, 03 Jun 2023 17:00:00 CST
+    pubDate: Sat, 03 Jun 2023 22:00:00 GMT
     guid: 243f289f-60d2-4ca6-9ff5-d0084eed4841
     description: >
       <p>A lengthy introduction to content events and building scheduled jobs in Optimizely CMS 12.</p>
@@ -44,7 +44,7 @@ updates:
     type: youtube
     series: Optimizely CMS with Bob
     link: https://youtu.be/2IfrEB9IbBA
-    pubDate: Mon, 22 Aug 2022 17:00:00 CST
+    pubDate: Mon, 22 Aug 2022 22:00:00 GMT
     guid: eec6835d-7d4a-4f07-a783-44911a55b21c
     description: >
       <p>An introduction to working with content objects, content APIs, and avoiding some common stumbling blocks for people who are new to the CMS platform.</p>
@@ -53,7 +53,7 @@ updates:
     type: youtube
     series: Optimizely CMS with Bob
     link: https://youtu.be/DTvoE4xCVSA
-    pubDate: Sat, 23 Jul 2022 17:00:00 CST
+    pubDate: Sat, 23 Jul 2022 22:00:00 GMT
     guid: 45bf6c49-7b5e-421c-8247-dce489f89770
     description: >
       <p>A brief (hour long) introduction to several basic ways to render content in Optimizely CMS 12, including rendering pages via a controller, blocks via a controller, blocks via the template coordinator, and page partials via the template coordinator.</p>
@@ -61,7 +61,7 @@ updates:
     title: Content Modeling in Optimizely CMS
     type: youtube
     series: Optimizely CMS with Bob
-    pubDate: Mon, 20 Jun 2022 17:00:00 CST
+    pubDate: Mon, 20 Jun 2022 22:00:00 GMT
     link: https://youtu.be/XxHBlCZrvEE
     guid: 1863ef7b-0376-4463-83b8-37e8e61936d9
     description: >
@@ -71,7 +71,7 @@ updates:
     type: youtube
     series: Optimizely CMS with Bob
     link: https://youtu.be/mdQYec2JhQA
-    pubDate: Sun, 01 May 2022 17:00:00 CST
+    pubDate: Sun, 01 May 2022 22:00:00 GMT
     guid: 8cbe1798-1edf-47ea-91ac-9861657674f2
     description: >
       <p>I revamp my old series on building Episerver (now Optimizely CMS) sites from the ground up.</p>
@@ -80,7 +80,7 @@ updates:
     type: link
     series: Blog Post
     link: https://www.blendinteractive.com/thoughts/content-references-in-xhtmlstrings/
-    pubDate: Tue, 08 Feb 2022 17:00:00 CST
+    pubDate: Tue, 08 Feb 2022 22:00:00 GMT
     guid: 08c0cbb0-f3ea-4a88-8ed2-116a06061e33
     description: >
       <p>XHtmlString properties are more than just HTML, they include HTML, internal links to content, embedded blocks, personalization, and more. Here I take a brief look at the internals of XhtmlString properties and the fragments that make them.</p>
@@ -89,7 +89,7 @@ updates:
     type: github
     series: Github
     link: https://github.com/mrdrbob/aoc-2021
-    pubDate: Thu, 02 Dec 2021 17:00:00 CST
+    pubDate: Thu, 02 Dec 2021 22:00:00 GMT
     guid: 5463f0d5-a0b0-4bb2-bd21-ed476862509f
     description: >
       <p>Another year, another failed attempt. Actually, I completed all of the puzzles this year, just a month and a half late. Like last year, I kept a dev diary of sorts. Unlike last year, I did all the puzzles in C#.</p>
@@ -98,7 +98,7 @@ updates:
     type: github
     series: Github
     link: https://github.com/mrdrbob/bobdavidson.dev
-    pubDate: Tue, 26 Jan 2021 17:00:00 CST
+    pubDate: Tue, 26 Jan 2021 22:00:00 GMT
     guid: a15a6758-aeae-44b2-a4ff-0014a5c8b6eb
     description: >
       <p>If you're wondering how this site is built and deployed, wonder no more. I've published the source code on Github. There's not actually much interesting here (except <em>maybe</em> the <a href="https://github.com/mrdrbob/bobdavidson.dev/blob/main/gulpfile.js">Gulp file that builds everything</a>), but perhaps someone will find something useful here.</p>
@@ -107,7 +107,7 @@ updates:
     type: github
     series: Github
     link: https://github.com/mrdrbob/aoc-2020
-    pubDate: Wed, 02 Dec 2020 17:00:00 CST
+    pubDate: Wed, 02 Dec 2020 22:00:00 GMT
     guid: 13e4b429-734b-4ed7-9743-c7de008051b1
     description: >
       <p>Another year and another attempt at <a href="https://adventofcode.com/2020" target="_blank" rel="noopener">Advent of Code</a>. Once again, I did not finish, though I made it slightly farther than before (day 15). And once again I tried it in <a href="https://www.rust-lang.org/" target="_blank" rel="noopener">Rust</a>. You can read my development diary as I worked through the syntax and logic. I've not used systems languages much, but I've had much greater success with Rust than I have any other systems language. It's not quite ready to be a part of my day job, but I see why it has such buzz.</p>
@@ -116,7 +116,7 @@ updates:
     type: github
     series: Github
     link: https://github.com/mrdrbob/godot-test
-    pubDate: Sat, 21 Nov 2020 17:00:00 CST
+    pubDate: Sat, 21 Nov 2020 22:00:00 GMT
     guid: 381b2bf0-3d4b-4058-8477-ab6d11b66632
     description: >
       <p>I started playing around a bit with <a href="https://godotengine.org/" target="_blank" rel="noopener">Godot</a>, following some tutorials and building a very rough, proof-of-concept side-scrolling platformer. In the <a href="https://github.com/mrdrbob/godot-test">Github repo</a>, you can find all my files and read through my development diary as I tried to figure out just what the heck I was doing. Overall, though, I'm extremely impressed with how polished Godot is, and how quickly a person can get up and running.</p>
@@ -125,7 +125,7 @@ updates:
     type: youtube
     series: Episerver with Bob
     link: https://youtu.be/pgslebVq7v8
-    pubDate: Sun, 06 Dec 2020 17:00:00 CST
+    pubDate: Sun, 06 Dec 2020 22:00:00 GMT
     guid: 983b006b-d619-4150-9b30-d28ce988429b
     description: >
       <p>I show one technique to make metadata and otherwise non-visible page properties more user-friendly for on-page editing in Episerver.</p>
@@ -134,7 +134,7 @@ updates:
     type: youtube
     series: Refactoring with Bob
     link: https://youtu.be/05HWg5R_zsE
-    pubDate: Sun, 01 Nov 2020 17:00:00 CST
+    pubDate: Sun, 01 Nov 2020 22:00:00 GMT
     guid: ad5723b7-169c-4c6f-9076-74740fc51817
     description: >
       <p>I show one technique to make metadata and otherwise non-visible page properties more user-friendly for on-page editing in Episerver.</p>
@@ -143,7 +143,7 @@ updates:
     type: youtube
     series: Refactoring with Bob
     link: https://youtu.be/05HWg5R_zsE
-    pubDate: Sat, 12 Sep 2020 17:00:00 CST
+    pubDate: Sat, 12 Sep 2020 22:00:00 GMT
     guid: 06f7d036-c8ba-418e-8780-980487e38265
     description: >
       <p>In which we answer the questions: how do `foreach` loops work? How do `yield return` statements work? We look at the C# compiler actually generates (more or less) in these cases.</p>
@@ -152,7 +152,7 @@ updates:
     type: youtube
     series: Refactoring with Bob
     link: https://youtu.be/6gawVMHtfdA
-    pubDate: Thu, 03 Sep 2020 17:00:00 CST
+    pubDate: Thu, 03 Sep 2020 22:00:00 GMT
     guid: 892c1877-15b3-4c9d-b126-59a933b68236
     description: >
       <p>In which we explore a home-built, makeshift content management system. Thanks to John for letting us examine and critique his code!</p>
@@ -161,7 +161,7 @@ updates:
     type: youtube
     series: Refactoring with Bob
     link: https://youtu.be/lRA53HiXIxw
-    pubDate: Thu, 03 Sep 2020 17:00:00 CST
+    pubDate: Thu, 03 Sep 2020 22:00:00 GMT
     guid: 4e47a83c-1943-4bbe-b637-81051a97ed71
     description: >
       <p>In which we solve a code challenge (being intentionally naive), and then refactor the solve.</p>
@@ -170,7 +170,7 @@ updates:
     type: youtube
     series: Refactoring with Bob
     link: https://youtu.be/5Vlx2q7fQp0
-    pubDate: Thu, 03 Sep 2020 17:00:00 CST
+    pubDate: Thu, 03 Sep 2020 22:00:00 GMT
     guid: 07a2a394-444d-4f8c-a9c6-c76f9bcbef3c
     description: >
       <p>In which we look at a made-up gated content form controller in MVC.</p>
@@ -179,7 +179,7 @@ updates:
     type: youtube
     series: Refactoring with Bob
     link: https://youtu.be/pgslebVq7v8
-    pubDate: Thu, 03 Sep 2020 17:00:00 CST
+    pubDate: Thu, 03 Sep 2020 22:00:00 GMT
     guid: 0299251a-04b4-4efc-9225-819a60770145
     description: >
       <p>In which we look at a made-up function that adds/publishes comments to a page in a Content Management System.</p>
