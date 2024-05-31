@@ -41,6 +41,16 @@
     background-size: contain;
 }
 
+.icon.icon-tabs {
+    background: url('tabs.svg') top left no-repeat;
+    background-size: contain;
+}
+
+p.date {
+    color: #CCC;
+    font-style: italic;
+}
+
 @media screen and (min-width: 35.5em) {
     .icon {
         top: 3em;
