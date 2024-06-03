@@ -3,6 +3,15 @@ title: Bob Davidson.dev
 link: https://bobdavidson.dev/
 description: Homepage of Bob Davidson, Director of Development at Blend Interactive, Web Developer, Tinkerer
 updates:
+  - id: link/11-sql-profiling
+    title: SQL Profiling in Optimizely CMS 12
+    type: youtube
+    series: Optimizely CMS with Bob
+    link: https://youtu.be/kUV67AfeQuA
+    pubDate: Sun, 02 Jun 2024 22:00:00 GMT
+    guid: af979978-50c9-40a4-9476-7db3318c737a
+    description: >
+      <p>A relatively quick introduction to some simple tools to get you started in performance profiling in Optimizely CMS (or other ASP.NET applications).</p>
   - id: tabs/2024-05
     title: Tabs from other devices (2024-05)
     type: tabs
