@@ -3,6 +3,15 @@ title: Bob Davidson.dev
 link: https://bobdavidson.dev/
 description: Homepage of Bob Davidson, Director of Development at Blend Interactive, Web Developer, Tinkerer
 updates:
+  - id: tabs/2024-06
+    title: Tabs from other devices (2024-06)
+    type: tabs
+    series: Tabs
+    link: https://bobdavidson.dev/tabs/2024-06.html
+    pubDate: Sun, 07 Jul 2024 22:00:00 GMT
+    guid: 30e6512d-6352-41b7-adfd-da0545153ef5
+    description: >
+      <p>What I've been reading recently: June of 2024 edition.</p>
   - id: link/11-sql-profiling
     title: SQL Profiling in Optimizely CMS 12
     type: youtube
