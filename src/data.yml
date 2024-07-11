@@ -3,6 +3,15 @@ title: Bob Davidson.dev
 link: https://bobdavidson.dev/
 description: Homepage of Bob Davidson, Director of Development at Blend Interactive, Web Developer, Tinkerer
 updates:
+  - id: blog/2024-07-10
+    title: Working in Seasons
+    type: link
+    series: Blog Post
+    link: https://bobdavidson.dev/blog/2024-07-10.html
+    pubDate: Sun, 19 Nov 2023 22:00:00 GMT
+    guid: d2a35517-7d58-48fd-816f-a9926a114668
+    description: >
+      <p>I like to work in "seasons" as much as I can. This is what I mean by that.</p>
   - id: tabs/2024-06
     title: Tabs from other devices (2024-06)
     type: tabs
